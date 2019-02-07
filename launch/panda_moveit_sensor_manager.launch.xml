@@ -1,0 +1,9 @@
+<launch>
+
+  <rosparam command="load" file="$(find panda_moveit_config_ash)/config/sensors_kinect_pointcloud.yaml" />
+
+  <!-- <param name="octomap_frame" type="string" value="/world" /> -->
+  <!-- <param name="octomap_resolution" type="double" value="0.05" /> -->
+  <!-- <param name="max_range" type="double" value="0.5" /> -->
+
+</launch>
