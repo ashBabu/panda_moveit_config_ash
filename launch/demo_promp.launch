@@ -24,7 +24,7 @@
             <!-- 1. Start -->
             <!-- To play recorded rosbag files: caution: make minus minus clock instead of -\-clock -->
 
-  <!-- <node pkg="rosbag" type="play" name="player" output="screen" args="-l -\-clock /home/automato/Ash/scripts/ceiling_cam_qhd_points.bag"/> -->
+  <node pkg="rosbag" type="play" name="player" output="screen" args="-l --clock /home/ash/catkin_ws/ceiling_camera_qhd_points_2019-02-20-16-18-44.bag"/>"/>
                 <!-- 1. End ######################### -->
 
 

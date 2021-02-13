@@ -3,14 +3,12 @@
 
 
 
-import tf
 import sys
 import rospy
 import moveit_commander
 from geometry_msgs.msg import PoseStamped
 
 from visualization_msgs.msg import MarkerArray
-
 
 class OctomapCollisionGenerator(object):
     def __init__(self):
